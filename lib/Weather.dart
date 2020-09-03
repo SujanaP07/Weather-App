@@ -1,4 +1,3 @@
-import'package:http/http.dart';
 import 'package:flutter/material.dart';
 import 'package:weather_app/model/forecast_model.dart';
 import 'package:weather_app/network/network.dart';
