@@ -29,6 +29,13 @@ Widget bottomView(AsyncSnapshot<ForecastModel>snapshot,BuildContext context){
                width:MediaQuery.of(context).size.width/2.7,
                height:160.0,
                child:ForecastCard(snapshot,index),
+               decoration: BoxDecoration(
+                 gradient: LinearGradient(
+                     colors: [Colors.amber.shade500,Colors.amber.shade100],
+                     begin: Alignment.topLeft,
+                     end:Alignment.bottomRight,
+                 )
+               ),
              )
          )
        ),
