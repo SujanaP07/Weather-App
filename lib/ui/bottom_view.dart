@@ -5,6 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'dart:core';
 import 'package:weather_app/model/forecast_model.dart';
+import 'package:weather_app/ui/forecast_card.dart';
 
 
 Widget bottomView(AsyncSnapshot<ForecastModel>snapshot,BuildContext context){
